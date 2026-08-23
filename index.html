@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Samartex Hospital</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header>
+    <div class="navbar">
+
+        <div class="logo">
+            <span class="logo-icon">✚</span>
+            <span>Samartex Hospital</span>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#doctors">Doctors</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#videos">Videos</a>
+            <a href="#contact">Contact</a>
+            <a href="#" onclick="openLogin()">Admin</a>
+        </nav>
+
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+    </div>
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="hero-small">WELCOME TO SAMARTEX HOSPITAL</p>
+
+        <h1>
+            Quality Healthcare
+            With Compassion
+        </h1>
+
+        <p>
+            We provide professional healthcare services,
+            modern facilities and compassionate care for
+            our patients and their families.
+        </p>
+
+        <div>
+            <a href="#services" class="btn btn-white">
+                Explore Services
+            </a>
+
+            <a href="#contact" class="btn btn-green">
+                Book Appointment
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SERVICES
+========================= -->
+
+<section id="services">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <p>Professional healthcare services for you and your family.</p>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="service-icon">🩺</div>
+                <h3>General Medicine</h3>
+                <p>
+                    Medical consultation, diagnosis and treatment.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">❤️</div>
+                <h3>Cardiology</h3>
+                <p>
+                    Heart health assessment and specialized care.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">👶</div>
+                <h3>Paediatrics</h3>
+                <p>
+                    Professional healthcare services for children.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">🦷</div>
+                <h3>Dental Care</h3>
+                <p>
+                    Dental examinations and oral healthcare.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">💊</div>
+                <h3>Pharmacy</h3>
+                <p>
+                    Prescribed medicines and pharmacy support.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">🔬</div>
+                <h3>Laboratory</h3>
+                <p>
+                    Laboratory testing to support accurate diagnosis.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+
+<section class="about-section" id="about">
+
+    <div class="container about-grid">
+
+        <div>
+            <img
+                class="about-image"
+                src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1000&q=80"
+                alt="Hospital"
+            >
+        </div>
+
+        <div class="about-text">
+
+            <p class="section-label">ABOUT US</p>
+
+            <h2>
+                Caring For Your Health
+                Is Our Priority
+            </h2>
+
+            <p>
+                Samartex Hospital is committed to providing
+                quality healthcare in a safe, friendly and
+                professional environment.
+            </p>
+
+            <p>
+                Our healthcare team works together to provide
+                reliable medical services and compassionate
+                patient care.
+            </p>
+
+            <a href="#contact" class="btn btn-green">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     DOCTORS
+========================= -->
+
+<section id="doctors">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Our Doctors</h2>
+            <p>Meet some of our healthcare professionals.</p>
+        </div>
+
+        <div class="doctors">
+
+            <div class="doctor-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=80"
+                    alt="Doctor"
+                >
+
+                <div>
+                    <h3>Dr. Michael Mensah</h3>
+                    <p>Medical Director</p>
+                </div>
+
+            </div>
+
+
+            <div class="doctor-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=700&q=80"
+                    alt="Doctor"
+                >
+
+                <div>
+                    <h3>Dr. Grace Owusu</h3>
+                    <p>General Physician</p>
+                </div>
+
+            </div>
+
+
+            <div class="doctor-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=700&q=80"
+                    alt="Doctor"
+                >
+
+                <div>
+                    <h3>Dr. Daniel Asare</h3>
+                    <p>Paediatrician</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     GALLERY
+========================= -->
+
+<section class="gallery-section" id="gallery">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Hospital Gallery</h2>
+            <p>Pictures from Samartex Hospital.</p>
+        </div>
+
+        <div id="galleryContainer" class="gallery">
+
+            <!-- Uploaded images will appear here -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     VIDEOS
+========================= -->
+
+<section id="videos">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Hospital Videos</h2>
+            <p>Watch our hospital videos.</p>
+        </div>
+
+        <div id="videoContainer" class="video-grid">
+
+            <!-- Uploaded videos will appear here -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Contact Samartex Hospital</h2>
+            <p>We are ready to assist you.</p>
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <h3>Hospital Information</h3>
+
+                <p>📍 Samreboi, Ghana</p>
+                <p>📦 P.O. Box 1, Samreboi</p>
+                <p>📞 Hospital Reception</p>
+                <p>✉️ info@samartexhospital.example</p>
+
+                <br>
+
+                <h3>Opening Hours</h3>
+
+                <p>Monday - Sunday: 24 Hours</p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>Book Appointment</h3>
+
+                <form onsubmit="bookAppointment(event)">
+
+                    <input
+                        type="text"
+                        id="patientName"
+                        placeholder="Patient Name"
+                        required
+                    >
+
+                    <input
+                        type="tel"
+                        placeholder="Phone Number"
+                        required
+                    >
+
+                    <input
+                        type="date"
+                        required
+                    >
+
+                    <select required>
+
+                        <option value="">
+                            Select Department
+                        </option>
+
+                        <option>
+                            General Medicine
+                        </option>
+
+                        <option>
+                            Cardiology
+                        </option>
+
+                        <option>
+                            Paediatrics
+                        </option>
+
+                        <option>
+                            Dental Care
+                        </option>
+
+                        <option>
+                            Laboratory
+                        </option>
+
+                    </select>
+
+                    <textarea
+                        placeholder="Additional information"
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        class="btn btn-green"
+                    >
+                        Request Appointment
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        <span class="logo-icon">✚</span>
+        Samartex Hospital
+    </div>
+
+    <p>
+        Quality Healthcare • Compassion • Professionalism
+    </p>
+
+    <p>
+        © 2026 Samartex Hospital
+    </p>
+
+</footer>
+
+
+<!-- =========================
+     ADMIN LOGIN
+========================= -->
+
+<div id="loginModal" class="modal">
+
+    <div class="login-box">
+
+        <button
+            class="close-button"
+            onclick="closeLogin()"
+        >
+            ×
+        </button>
+
+        <h2>Admin Login</h2>
+
+        <p>Sign in to the hospital dashboard.</p>
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Username"
+        >
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Password"
+        >
+
+        <button
+            class="btn btn-green full-button"
+            onclick="login()"
+        >
+            Login
+        </button>
+
+        <p id="loginMessage" class="error-message"></p>
+
+        <small>
+            Demo: admin / Samartex@123
+        </small>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     ADMIN DASHBOARD
+========================= -->
+
+<div id="dashboard" class="dashboard">
+
+    <aside class="sidebar">
+
+        <div class="dashboard-logo">
+            ✚ Samartex
+        </div>
+
+        <button onclick="showDashboardPage('overview')">
+            📊 Overview
+        </button>
+
+        <button onclick="showDashboardPage('patients')">
+            👥 Patients
+        </button>
+
+        <button onclick="showDashboardPage('appointments')">
+            📅 Appointments
+        </button>
+
+        <button onclick="showDashboardPage('doctorsAdmin')">
+            👨‍⚕️ Doctors
+        </button>
+
+        <button onclick="showDashboardPage('galleryAdmin')">
+            🖼️ Gallery
+        </button>
+
+        <button onclick="showDashboardPage('videosAdmin')">
+            🎥 Videos
+        </button>
+
+        <button onclick="toggleTheme()">
+            🌙 Theme
+        </button>
+
+        <button onclick="logout()" class="logout-button">
+            🚪 Logout
+        </button>
+
+    </aside>
+
+
+    <main class="dashboard-main">
+
+        <div class="dashboard-header">
+
+            <div>
+                <h1>Admin Dashboard</h1>
+                <p id="adminDate"></p>
+            </div>
+
+        </div>
+
+
+        <!-- OVERVIEW -->
+
+        <div
+            id="overview"
+            class="dashboard-page"
+        >
+
+            <div class="stats">
+
+                <div class="stat-card">
+                    <span>👥</span>
+                    <p>Total Patients</p>
+                    <h2>1,248</h2>
+                </div>
+
+                <div class="stat-card">
+                    <span>👨‍⚕️</span>
+                    <p>Doctors</p>
+                    <h2>38</h2>
+                </div>
+
+                <div class="stat-card">
+                    <span>📅</span>
+                    <p>Appointments</p>
+                    <h2>126</h2>
+                </div>
+
+                <div class="stat-card">
+                    <span>🏥</span>
+                    <p>Departments</p>
+                    <h2>12</h2>
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-panel">
+
+                <h2>Welcome Administrator</h2>
+
+                <p>
+                    Use the menu on the left to manage
+                    hospital information, gallery pictures,
+                    videos, doctors, patients and appointments.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PATIENTS -->
+
+        <div
+            id="patients"
+            class="dashboard-page hidden"
+        >
+
+            <div class="dashboard-panel">
+
+                <h2>Patients</h2>
+
+                <table>
+
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>SH001</td>
+                        <td>John Mensah</td>
+                        <td>General Medicine</td>
+                        <td>Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>SH002</td>
+                        <td>Mary Owusu</td>
+                        <td>Paediatrics</td>
+                        <td>Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>SH003</td>
+                        <td>Daniel Asare</td>
+                        <td>Cardiology</td>
+                        <td>Completed</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- APPOINTMENTS -->
+
+        <div
+            id="appointments"
+            class="dashboard-page hidden"
+        >
+
+            <div class="dashboard-panel">
+
+                <h2>Appointments</h2>
+
+                <table>
+
+                    <tr>
+                        <th>Patient</th>
+                        <th>Date</th>
+                        <th>Doctor</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>John Mensah</td>
+                        <td>22 Aug 2026</td>
+                        <td>Dr. Mensah</td>
+                        <td>Confirmed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mary Owusu</td>
+                        <td>23 Aug 2026</td>
+                        <td>Dr. Owusu</td>
+                        <td>Pending</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- DOCTORS -->
+
+        <div
+            id="doctorsAdmin"
+            class="dashboard-page hidden"
+        >
+
+            <div class="dashboard-panel">
+
+                <h2>Doctors</h2>
+
+                <table>
+
+                    <tr>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>Dr. Michael Mensah</td>
+                        <td>Administration</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dr. Grace Owusu</td>
+                        <td>General Medicine</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dr. Daniel Asare</td>
+                        <td>Paediatrics</td>
+                        <td>Available</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- GALLERY ADMIN -->
+
+        <div
+            id="galleryAdmin"
+            class="dashboard-page hidden"
+        >
+
+            <div class="dashboard-panel">
+
+                <h2>🖼️ Gallery Management</h2>
+
+                <p>
+                    Add a new hospital picture.
+                </p>
+
+                <form id="imageForm">
+
+                    <input
+                        type="file"
+                        id="imageFile"
+                        accept="image/*"
+                        required
+                    >
+
+                    <button
+                        type="submit"
+                        class="btn btn-green"
+                    >
+                        Upload Picture
+                    </button>
+
+                </form>
+
+                <p id="imageMessage"></p>
+
+                <div
+                    id="adminGallery"
+                    class="admin-media-grid"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- VIDEOS ADMIN -->
+
+        <div
+            id="videosAdmin"
+            class="dashboard-page hidden"
+        >
+
+            <div class="dashboard-panel">
+
+                <h2>🎥 Video Management</h2>
+
+                <p>
+                    Add a new hospital video.
+                </p>
+
+                <form id="videoForm">
+
+                    <input
+                        type="file"
+                        id="videoFile"
+                        accept="video/*"
+                        required
+                    >
+
+                    <button
+                        type="submit"
+                        class="btn btn-green"
+                    >
+                        Upload Video
+                    </button>
+
+                </form>
+
+                <p id="videoMessage"></p>
+
+                <div
+                    id="adminVideos"
+                    class="admin-media-grid"
+                ></div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
